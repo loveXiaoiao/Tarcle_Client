@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6d6d6"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+   <fragment
+        android:id="@+id/fragment_weichart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.gongming.weichart.fragment.WeichartFragment" />
+
+    <fragment
+        android:id="@+id/fragment_maillist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.gongming.weichart.fragment.MaillistFragment" />
+
+    <fragment
+        android:id="@+id/fragment_found"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.gongming.weichart.fragment.FoundFragment" />
+    <fragment
+        android:id="@+id/fragment_me"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.gongming.weichart.fragment.MeFragment" />
+    
+    <com.gongming.weichart.fragment.FragmentIndicator
+        android:id="@+id/indicator"
+        android:background="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+
+</LinearLayout>
