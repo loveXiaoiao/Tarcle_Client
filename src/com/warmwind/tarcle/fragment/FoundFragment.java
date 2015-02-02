@@ -1,6 +1,6 @@
-package com.gongming.weichart.fragment;
+package com.warmwind.tarcle.fragment;
 
-import com.gongming.weichart.R;
+import com.warmwind.tarcle.R;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

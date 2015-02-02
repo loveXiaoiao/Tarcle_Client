@@ -1,4 +1,4 @@
-package com.gongming.weichart.entity;
+package com.warmwind.tarcle.entity;
 
 public class Contact {
 	

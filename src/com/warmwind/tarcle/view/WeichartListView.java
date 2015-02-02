@@ -1,10 +1,10 @@
-package com.gongming.weichart.view;
+package com.warmwind.tarcle.view;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gongming.weichart.R;
-import com.gongming.weichart.entity.Contact;
+import com.warmwind.tarcle.R;
+import com.warmwind.tarcle.entity.Contact;
 
 import android.content.Context;
 import android.view.LayoutInflater;

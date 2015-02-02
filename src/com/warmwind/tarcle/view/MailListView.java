@@ -1,9 +1,9 @@
-package com.gongming.weichart.view;
+package com.warmwind.tarcle.view;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gongming.weichart.R;
+import com.warmwind.tarcle.R;
 
 
 import android.content.Context;

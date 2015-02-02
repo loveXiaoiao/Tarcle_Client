@@ -1,9 +1,5 @@
-package com.gongming.weichart.fragment;
+package com.warmwind.tarcle.fragment;
 
-
-import com.gongming.weichart.R;
-import com.gongming.weichart.activity.PersonInfoActivity;
-import com.gongming.weichart.activity.SettingActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,20 +7,18 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnClickListener;
-import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.TextView;
+import android.view.ViewGroup;
+
+import com.warmwind.tarcle.R;
+import com.warmwind.tarcle.activity.PersonInfoActivity;
+import com.warmwind.tarcle.activity.SettingActivity;
 
 public class MeFragment extends Fragment {
 	
 	
 	private View mParent;
 	private FragmentActivity mActivity;
-	private ImageView imageView = null;
-	private TextView textView = null;
-	
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -38,8 +32,7 @@ public class MeFragment extends Fragment {
 		super.onActivityCreated(savedInstanceState);
 		mParent = getView();
 		mActivity = getActivity();
-		imageView = (ImageView)mActivity.findViewById(R.id.image21);
-		imageView.setOnClickListener(new OnClickListener() {
+		mActivity.findViewById(R.id.meRelative).setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(mActivity, PersonInfoActivity.class);
@@ -48,8 +41,7 @@ public class MeFragment extends Fragment {
 			}
 		
 		});
-		textView = (TextView)mActivity.findViewById(R.id.meTextviewSet);
-		textView.setOnClickListener(new OnClickListener() {
+		mActivity.findViewById(R.id.meSetingTurn).setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(mActivity, SettingActivity.class);
@@ -59,6 +51,8 @@ public class MeFragment extends Fragment {
 		
 		});
 	}
+	
+	
 	
 
 }

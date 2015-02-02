@@ -1,9 +1,9 @@
-package com.gongming.weichart.activity;
+package com.warmwind.tarcle.activity;
 
 
-import com.gongming.weichart.R;
-import com.gongming.weichart.fragment.FragmentIndicator;
-import com.gongming.weichart.fragment.FragmentIndicator.OnIndicateListener;
+import com.warmwind.tarcle.R;
+import com.warmwind.tarcle.fragment.FragmentIndicator;
+import com.warmwind.tarcle.fragment.FragmentIndicator.OnIndicateListener;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

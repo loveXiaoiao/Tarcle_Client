@@ -11,29 +11,29 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        class="com.gongming.weichart.fragment.WeichartFragment" />
+        class="com.warmwind.tarcle.fragment.WeichartFragment" />
 
     <fragment
         android:id="@+id/fragment_maillist"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        class="com.gongming.weichart.fragment.MaillistFragment" />
+        class="com.warmwind.tarcle.fragment.MaillistFragment" />
 
     <fragment
         android:id="@+id/fragment_found"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        class="com.gongming.weichart.fragment.FoundFragment" />
+        class="com.warmwind.tarcle.fragment.FoundFragment" />
     <fragment
         android:id="@+id/fragment_me"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        class="com.gongming.weichart.fragment.MeFragment" />
+        class="com.warmwind.tarcle.fragment.MeFragment" />
     
-    <com.gongming.weichart.fragment.FragmentIndicator
+    <com.warmwind.tarcle.fragment.FragmentIndicator
         android:id="@+id/indicator"
         android:background="#ffffff"
         android:layout_width="fill_parent"

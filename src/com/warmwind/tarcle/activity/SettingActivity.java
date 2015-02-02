@@ -1,5 +1,6 @@
-package com.gongming.weichart.activity;
+package com.warmwind.tarcle.activity;
 
+import com.warmwind.tarcle.R;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,20 +9,18 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
 
-import com.gongming.weichart.R;
-
-public class PersonInfoActivity extends Activity {
+public class SettingActivity extends Activity {
 	private ImageView imageView = null;
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.me_person_information);
-		imageView = (ImageView)findViewById(R.id.mpimage1);
+		setContentView(R.layout.me_settings);
+		
+		imageView = (ImageView)findViewById(R.id.msimage1);
 		imageView.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(PersonInfoActivity.this, MainActivity.class);
+				Intent intent = new Intent(SettingActivity.this, MainActivity.class);
 				intent.putExtra("click_key", "me_back");
 				startActivityForResult(intent,0);
 			}

@@ -1,10 +1,10 @@
-package com.gongming.weichart.fragment;
+package com.warmwind.tarcle.fragment;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gongming.weichart.R;
-import com.gongming.weichart.view.MailListView;
+import com.warmwind.tarcle.R;
+import com.warmwind.tarcle.view.MailListView;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
