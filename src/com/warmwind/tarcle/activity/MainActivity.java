@@ -29,8 +29,8 @@ public class MainActivity extends FragmentActivity {
 	private void setFragmentIndicator(int whichIsDefault) {
 		mFragments = new Fragment[4];
 		mFragments[0] = getSupportFragmentManager().findFragmentById(R.id.fragment_weichart);
-		mFragments[1] = getSupportFragmentManager().findFragmentById(R.id.fragment_maillist);
-		mFragments[2] = getSupportFragmentManager().findFragmentById(R.id.fragment_found);
+		mFragments[1] = getSupportFragmentManager().findFragmentById(R.id.fragment_topic);
+		mFragments[2] = getSupportFragmentManager().findFragmentById(R.id.fragment_circle);
 		mFragments[3] = getSupportFragmentManager().findFragmentById(R.id.fragment_me);
 		getSupportFragmentManager().beginTransaction().hide(mFragments[0])
 				.hide(mFragments[1]).hide(mFragments[2]).hide(mFragments[3]).show(mFragments[whichIsDefault]).commit();

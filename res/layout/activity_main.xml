@@ -14,18 +14,18 @@
         class="com.warmwind.tarcle.fragment.WeichartFragment" />
 
     <fragment
-        android:id="@+id/fragment_maillist"
+        android:id="@+id/fragment_topic"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        class="com.warmwind.tarcle.fragment.MaillistFragment" />
+        class="com.warmwind.tarcle.fragment.TopicFragment" />
 
     <fragment
-        android:id="@+id/fragment_found"
+        android:id="@+id/fragment_circle"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        class="com.warmwind.tarcle.fragment.FoundFragment" />
+        class="com.warmwind.tarcle.fragment.CircleFragment" />
     <fragment
         android:id="@+id/fragment_me"
         android:layout_width="fill_parent"
