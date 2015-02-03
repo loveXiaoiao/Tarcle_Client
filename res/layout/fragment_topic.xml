@@ -24,11 +24,55 @@
             android:id="@+id/textViewf1"/>
     </RelativeLayout>
     
-    <ListView android:layout_width="fill_parent" 
-			  android:layout_height="wrap_content" 
-			  android:id="@+id/MailListItem"
-			  android:background="#ffffff"
-			  />
+    <RelativeLayout  android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="48dp" 
+        android:layout_marginBottom="15dp"
+        >
+        <ImageView 
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/game"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imaget1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        <TextView 
+            android:layout_toRightOf="@+id/imaget1"
+            android:textSize="15sp"
+            android:text="动态"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"/>
+    </RelativeLayout>
+    
+    <RelativeLayout  android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="48dp" 
+        android:layout_marginBottom="15dp"
+        >
+        <ImageView 
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/my_topic"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imaget2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        <TextView 
+            android:layout_toRightOf="@+id/imaget2"
+            android:textSize="15sp"
+            android:text="我的说说"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"/>
+    </RelativeLayout>
     
 
 </LinearLayout>
