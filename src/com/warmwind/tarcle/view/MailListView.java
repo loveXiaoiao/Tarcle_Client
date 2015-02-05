@@ -49,12 +49,10 @@ public class MailListView extends BaseAdapter {
 				if (convertView == null) {
 					LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 					// 使用Vliew的对象itemView与R.layout.item关联
-					convertView = inflater.inflate(R.layout.mail_listview, null);
+//					convertView = inflater.inflate(R.layout.mail_listview, null);
 					holder = new ViewHolder();
-					holder.contactName = (TextView) convertView
-							.findViewById(R.id.mitemText);
-					holder.contactAvatar = (ImageView) convertView
-							.findViewById(R.id.mitemImage);
+//					holder.contactName = (TextView) convertView.findViewById(R.id.mitemText);
+//					holder.contactAvatar = (ImageView) convertView.findViewById(R.id.mitemImage);
 					convertView.setTag(holder);
 				} else {
 					holder = (ViewHolder) convertView.getTag();

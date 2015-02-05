@@ -49,9 +49,8 @@ public final class R {
         public static final int yaoyiyao=0x7f020019;
     }
     public static final class id {
-        public static final int MailListItem=0x7f080013;
         public static final int WeichartListItem=0x7f080012;
-        public static final int action_settings=0x7f08001c;
+        public static final int action_settings=0x7f080019;
         public static final int fragment_circle=0x7f080002;
         public static final int fragment_me=0x7f080003;
         public static final int fragment_topic=0x7f080001;
@@ -67,17 +66,15 @@ public final class R {
         public static final int meRelative=0x7f080009;
         public static final int meSetingTurn=0x7f08000d;
         public static final int meTextviewSet=0x7f08000f;
-        public static final int mitemImage=0x7f080014;
-        public static final int mitemText=0x7f080015;
-        public static final int mpimage1=0x7f080016;
-        public static final int msimage1=0x7f080017;
+        public static final int mpimage1=0x7f080013;
+        public static final int msimage1=0x7f080014;
         public static final int textView21=0x7f08000b;
         public static final int textView22=0x7f08000c;
         public static final int textViewf1=0x7f080005;
-        public static final int witemImage=0x7f080018;
-        public static final int witemText=0x7f08001a;
-        public static final int witemText2=0x7f08001b;
-        public static final int witemTitle=0x7f080019;
+        public static final int witemImage=0x7f080015;
+        public static final int witemText=0x7f080017;
+        public static final int witemText2=0x7f080018;
+        public static final int witemTitle=0x7f080016;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -85,10 +82,9 @@ public final class R {
         public static final int fragment_me=0x7f030002;
         public static final int fragment_topic=0x7f030003;
         public static final int fragment_weichart=0x7f030004;
-        public static final int mail_listview=0x7f030005;
-        public static final int me_person_information=0x7f030006;
-        public static final int me_settings=0x7f030007;
-        public static final int weichart_listview=0x7f030008;
+        public static final int me_person_information=0x7f030005;
+        public static final int me_settings=0x7f030006;
+        public static final int weichart_listview=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f070000;
